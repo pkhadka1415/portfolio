@@ -816,3 +816,21 @@ footer {
 
   display: none;
 }
+
+.project-card::before,
+.skill-box::before,
+.about-card::before {
+  pointer-events: none;
+}
+
+.project-links {
+  position: relative;
+  z-index: 5;
+}
+
+.project-links a {
+  position: relative;
+  z-index: 10;
+  pointer-events: auto;
+  cursor: pointer;
+}
